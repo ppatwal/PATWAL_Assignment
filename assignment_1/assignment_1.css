@@ -14,7 +14,8 @@
 .cmp-table td {
     border: 2px solid #000;
 }
-.cmp-table td {
+.cmp-table td,
+.cmp-table th {
     color: red;
     width: 400px;
     text-align: center;
