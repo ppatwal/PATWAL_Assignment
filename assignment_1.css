@@ -1,0 +1,21 @@
+.cmp-input {
+    background-color: yellow;
+}
+.cmp-btn {
+    background-color: blue;
+    color: white;
+}
+.cmp-text {
+    font-style: italic;
+    font-weight: bold;
+}
+.cmp-table,
+.cmp-table th,
+.cmp-table td {
+    border: 2px solid #000;
+}
+.cmp-table td {
+    color: red;
+    width: 400px;
+    text-align: center;
+}
