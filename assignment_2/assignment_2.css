@@ -59,3 +59,14 @@
     top: 5px;
     border-radius: 10px;
 }
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.flex-item {
+    padding: 10px;
+}
+.flex-item::first-letter {
+    text-transform: capitalize;
+}
