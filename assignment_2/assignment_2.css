@@ -1,0 +1,61 @@
+.grid-container {
+    display: grid;   
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    background-color: #ccc;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px;
+}
+ .grid-item {
+     border: 2px solid black;
+     background-color: rgba(255, 255, 255, 0);
+     padding: 20px;
+     font-size: 20px;
+     text-align: center;
+}
+.grid-item:hover {
+    width: 25%;
+    height: 75%;  
+}
+.table-cmp {
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+    overflow: auto;
+    margin: 0 auto;
+}
+.table-cmp tr {
+    border: 1px solid black;
+    position: relative;
+}
+.table-cmp th,
+.table-cmp td {
+    padding: 20px;
+    border: 1px solid black;
+}
+.table-cmp tr:nth-child(even) {
+    background-color: magenta;
+}
+.table-cmp tr:nth-child(odd) {
+    background-color: cyan;
+}
+.table-cmp tr:hover {
+    font-size: 24px;
+    color: red;
+    background-color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.table-cmp tr:hover:after {
+    content: 'The current row is selected';
+    width: max-content;
+    background-color: cadetblue;
+    color: white;
+    font-size: 14px;
+    padding: 20px;
+    position: absolute;
+    z-index: 1;
+    left: 95%;
+    top: 5px;
+    border-radius: 10px;
+}
