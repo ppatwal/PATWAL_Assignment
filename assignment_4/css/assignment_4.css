@@ -1,0 +1,28 @@
+.cmp-button {
+  background-color: yellow;
+  color: black;
+  padding: 12px; }
+
+@media screen and (max-width: 400px) {
+  .btn-elliptical {
+    border-radius: 50%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: grey;
+    color: blue; } }
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse; }
+  table.table-danger {
+    background-color: yellow; }
+  table.table-stripped tbody tr {
+    background-color: lightblue; }
+  table.table-responsive {
+    overflow: auto;
+    width: 100vw;
+    text-align: center; }
+  table tr, table td, table th {
+    color: red;
+    padding: 12px;
+    border: 1px solid black; }
