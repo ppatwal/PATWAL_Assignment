@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" name="viewport" />
+        <link rel="stylesheet" href="assignment_5.css">
+        <script src="assignment_5.js"></script>
+        <title>Assignment 3</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="calculator">
+                <div class="text">
+                    <input class="result" id="result"/>
+                </div>
+                <div class="buttons">
+                    <button class="btn opt" onclick="clearDisplay();">C</button>
+                    <button class="btn opt" onclick="appendOperator('%');">%</button>
+                    <button class="btn opt" onclick="deleteEntry();">DEL</button>
+                    <button class="btn opt" onclick="appendOperator('/');">/</button>
+                    <button class="btn" onclick="appendOnDisplay('7');">7</button>
+                    <button class="btn" onclick="appendOnDisplay('8');">8</button>
+                    <button class="btn" onclick="appendOnDisplay('9');">9</button>
+                    <button class="btn opt" onclick="appendOperator('*');">*</button>
+                    <button class="btn" onclick="appendOnDisplay('4');">4</button>
+                    <button class="btn" onclick="appendOnDisplay('5');">5</button>
+                    <button class="btn" onclick="appendOnDisplay('6');">6</button>
+                    <button class="btn opt" onclick="appendOperator('-');">-</button>
+                    <button class="btn" onclick="appendOnDisplay('1');">1</button>
+                    <button class="btn" onclick="appendOnDisplay('2');">2</button>
+                    <button class="btn" onclick="appendOnDisplay('3');">3</button>
+                    <button class="btn opt" onclick="appendOperator('+');">+</button>
+                    <button class="btn" onclick="appendOnDisplay('00');">00</button>
+                    <button class="btn" onclick="appendOnDisplay('0');">0</button>
+                    <button class="btn" onclick="appendOperator('.');">.</button>
+                    <button class="btn opt" onclick="calculateResult()">=</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
