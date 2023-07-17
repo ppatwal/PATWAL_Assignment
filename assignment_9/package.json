@@ -1,0 +1,17 @@
+{
+  "name": "assignment_9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assignment_9.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dataset.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
