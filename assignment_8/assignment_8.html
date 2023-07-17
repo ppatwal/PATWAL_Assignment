@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" name="viewport" />
+        <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assignment_8.css">
+        <script src="assignment_8.js"></script>
+        <title>Assignment 8</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="container">
+                <br>
+                <div class="form-group">
+                    <label>Category Id</label>
+                    <select type="text" id="cat-id" class="form-control">
+                    </select>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label>Category Name</label>
+                    <input type="text" id="cat-name" class="form-control text" placeholder="enter category Name">
+                    <span>Please enter a value</span>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label>Category base Price</label>
+                    <input type="text" id="cat-base" class="form-control text num" placeholder="enter category base price">
+                    <span>Please enter a value</span>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label>Product Id</label>
+                    <input type="text" id="prod-id" class="form-control" placeholder="enter product Id">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label>Product name</label>
+                    <input type="text" id="txtproductname" class="form-control text" placeholder="enter Name">
+                    <span>Please enter a value</span>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label>Product Price</label>
+                    <input type="text" id="prod-price" class="form-control  text num" placeholder="enter price">
+                    <span>Please enter a value</span>
+                    <span class="numeric">Please enter a numeric value.</span>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label>Manufacturer</label>
+                    <input type="text" id="manufacturer" class="form-control text" placeholder="enter manufacturer">
+                    <span>Please enter a value</span>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label>Product Description</label>
+                    <input type="text" id="txtproductdesc" class="form-control text" placeholder="enter Description">
+                    <span>Please enter a value</span>
+                </div>
+                <br>
+                <div class="btn-group-lg">
+                    <button id="btnnew" disabled='true' class="btn btn-primary">New</button>
+                    <button id="btnsave" disabled='true' class="btn btn-success">Save</button>
+                    <button id="btnupdate" disabled='true' class="btn btn-warning">Update</button>
+                    <button id="btndelete"  disabled='true' class="btn btn-danger">Delete</button>
+
+                </div>
+                <br>
+                <h2>Category table</h2>
+                <div class="table table-bordered" id="categoryTable"></div>
+                <br>
+                <h2>Product table</h2>
+                <div class="table table-bordered" id="productTable"></div>
+            </div>
+        </div>
+    </body>
+</html>

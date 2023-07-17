@@ -1,0 +1,28 @@
+#categoryTable tbody tr {
+    cursor: pointer;
+}
+.sort-table {
+    display: inline-block;
+    width: 38%;
+}
+.rev-table {
+    display: inline-block;
+    margin-left: 10px;
+}
+.error {
+    border: 1px solid red !important
+}
+span {
+    display: none;
+    color: red;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.error + span {
+    display: block !important;
+}
+
+.error ~ .error-input {
+    display: block !important;
+}

@@ -99,7 +99,7 @@ function loadData(){
     }); 
 }
 
-function generateTable(dataSource, canDelete) {
+function generateTable(dataSource) {
     if(dataSource === undefined || dataSource.length === 0){
         return `<div class="alert alerrt-danger">
           <strong>
